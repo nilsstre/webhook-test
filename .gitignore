@@ -1,2 +1,4 @@
 /target/
 my-app.iml
+.settings
+.classpath

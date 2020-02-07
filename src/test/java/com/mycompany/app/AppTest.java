@@ -10,4 +10,9 @@ public class AppTest {
         assertEquals(App.adder(1, 1), 2);
         assertNotEquals(App.adder(1, 2), 1);
     }
+
+    @Test 
+    void adderFailing() {
+        assertEquals(App.adder(1, 1), 3);
+    }
 }
